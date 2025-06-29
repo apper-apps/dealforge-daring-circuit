@@ -11,8 +11,7 @@ const Header = () => {
   const { items } = useCart()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
-  const totalItems = items.reduce((sum, item) => sum + item.quantity, 0)
-
+  const totalItems = items?.reduce((sum, item) => sum + (item?.quantity || 0), 0) || 0
   const handleSearch = (query) => {
     if (query.trim()) {
       navigate(`/browse?search=${encodeURIComponent(query)}`)
