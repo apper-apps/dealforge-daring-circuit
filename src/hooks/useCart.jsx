@@ -1,10 +1,6 @@
-import { useState, useEffect, createContext, useContext } from 'react'
-import { toast } from 'react-toastify'
-
-const CartContext = createContext()
-
-import React, { useState, useEffect, createContext, useContext } from 'react'
-import { toast } from 'react-toastify'
+import React, { createContext, useContext, useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import Error from "@/components/ui/Error";
 
 // Create the cart context
 const CartContext = createContext({})
@@ -105,14 +101,6 @@ export const CartProvider = ({ children }) => {
       {children}
     </CartContext.Provider>
   )
-}
-
-export const useCart = () => {
-  const context = useContext(CartContext)
-  if (!context) {
-    throw new Error('useCart must be used within a CartProvider')
-  }
-  return context
 }
 
 // Wrap the entire app with CartProvider in main.jsx or App.jsx
