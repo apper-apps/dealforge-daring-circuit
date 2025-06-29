@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "dealId": 1,
+    "author": "Sarah Chen",
+    "rating": 5,
+    "comment": "Absolutely amazing design suite! The templates are professional and the editing tools are intuitive. I've created dozens of marketing materials and they all look fantastic. Worth every penny!",
+    "date": "2024-11-15T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "dealId": 1,
+    "author": "Michael Rodriguez",
+    "rating": 4,
+    "comment": "Great value for the price. The template library is extensive and the tools are powerful. Only minor issue is the occasional loading time, but overall very satisfied.",
+    "date": "2024-11-10T09:15:00Z"
+  },
+  {
+    "Id": 3,
+    "dealId": 1,
+    "author": "Emily Johnson",
+    "rating": 5,
+    "comment": "This has transformed how I create content for my business. The vector editing tools are professional-grade and the cloud storage makes collaboration seamless. Highly recommend!",
+    "date": "2024-11-08T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "dealId": 2,
+    "author": "David Park",
+    "rating": 5,
+    "comment": "TaskMaster Pro has revolutionized our project management. The workflow automation saves us hours every week, and the team collaboration features are excellent. Best investment we've made!",
+    "date": "2024-11-12T11:20:00Z"
+  },
+  {
+    "Id": 5,
+    "dealId": 2,
+    "author": "Lisa Thompson",
+    "rating": 4,
+    "comment": "Solid project management tool with great features. The Gantt charts are particularly useful. The learning curve is a bit steep but once you get the hang of it, it's very powerful.",
+    "date": "2024-11-05T13:00:00Z"
+  },
+  {
+    "Id": 6,
+    "dealId": 3,
+    "author": "Robert Kim",
+    "rating": 5,
+    "comment": "EmailBlast has increased our open rates by 40%! The automation workflows are incredibly sophisticated and the analytics provide valuable insights. Customer support is also top-notch.",
+    "date": "2024-11-14T10:30:00Z"
+  },
+  {
+    "Id": 7,
+    "dealId": 3,
+    "author": "Jennifer Wu",
+    "rating": 4,
+    "comment": "Excellent email marketing platform. The A/B testing features have helped optimize our campaigns significantly. The landing page builder could use more templates, but overall very happy.",
+    "date": "2024-11-07T15:15:00Z"
+  },
+  {
+    "Id": 8,
+    "dealId": 4,
+    "author": "Alex Turner",
+    "rating": 4,
+    "comment": "Great IDE for professional development. The code completion is accurate and the debugging tools are comprehensive. Supports all the languages I need. Worth the investment.",
+    "date": "2024-11-11T12:45:00Z"
+  },
+  {
+    "Id": 9,
+    "dealId": 5,
+    "author": "Maria Gonzalez",
+    "rating": 5,
+    "comment": "DataViz has transformed how we present our analytics to stakeholders. The visualizations are stunning and the real-time dashboards keep everyone informed. Absolutely love it!",
+    "date": "2024-11-09T14:20:00Z"
+  },
+  {
+    "Id": 10,
+    "dealId": 6,
+    "author": "James Wilson",
+    "rating": 4,
+    "comment": "TeamChat works well for our distributed team. Video quality is excellent and file sharing is seamless. The mobile app could be improved, but overall a solid communication platform.",
+    "date": "2024-11-06T16:30:00Z"
+  },
+  {
+    "Id": 11,
+    "dealId": 7,
+    "author": "Amanda Foster",
+    "rating": 5,
+    "comment": "SocialBoost has streamlined our entire social media workflow. The content scheduling is a lifesaver and the analytics help us understand what resonates with our audience. Fantastic tool!",
+    "date": "2024-11-13T09:45:00Z"
+  },
+  {
+    "Id": 12,
+    "dealId": 8,
+    "author": "Kevin Lee",
+    "rating": 4,
+    "comment": "CloudSync keeps all our files organized and accessible. The version control has saved us multiple times. Sync speed could be faster, but the reliability is excellent.",
+    "date": "2024-11-04T11:10:00Z"
+  },
+  {
+    "Id": 13,
+    "dealId": 9,
+    "author": "Rachel Adams",
+    "rating": 5,
+    "comment": "Built our entire e-commerce site with WebBuilder Pro. The templates are modern and the drag-and-drop interface is intuitive. Our sales have increased significantly!",
+    "date": "2024-11-16T13:25:00Z"
+  },
+  {
+    "Id": 14,
+    "dealId": 10,
+    "author": "Thomas Brown",
+    "rating": 5,
+    "comment": "SecureVault gives me peace of mind with all my passwords. The security features are robust and the cross-device sync works flawlessly. Essential tool for anyone concerned about security.",
+    "date": "2024-11-03T15:40:00Z"
+  },
+  {
+    "Id": 15,
+    "dealId": 12,
+    "author": "Nicole Davis",
+    "rating": 4,
+    "comment": "SEOMax has helped improve our website rankings significantly. The keyword research tool is particularly valuable. The interface could be more intuitive, but the results speak for themselves.",
+    "date": "2024-11-01T10:15:00Z"
+  }
+]
