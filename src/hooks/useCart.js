@@ -3,6 +3,21 @@ import { toast } from 'react-toastify'
 
 const CartContext = createContext()
 
+import React, { useState, useEffect, createContext, useContext } from 'react'
+import { toast } from 'react-toastify'
+
+// Create the cart context
+const CartContext = createContext({})
+
+// Custom hook to use cart context
+export const useCart = () => {
+  const context = useContext(CartContext)
+  if (!context) {
+    throw new Error('useCart must be used within a CartProvider')
+  }
+  return context
+}
+
 export const CartProvider = ({ children }) => {
   const [items, setItems] = useState([])
 
